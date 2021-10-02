@@ -1,0 +1,283 @@
+{
+  "export_date": "2021-10-2",
+  "type": "connection",
+  "data": [
+    {
+      "guardedObject": {
+        "name": "test name",
+        "address": "test address",
+        "lat": "50.451306",
+        "long": "30.527433",
+        "description": "about",
+        "contract": "434",
+        "manager": null,
+        "note": "",
+        "start_date": 1633381200000,
+        "status": null,
+        "object_type": null,
+        "id_request": null,
+        "reacting_pult_id": "1",
+        "images": [
+          null
+        ],
+        "rooms": [
+          {
+            "name": "test1",
+            "description": "testtt1",
+            "images": [
+              null
+            ],
+            "rtsp": null,
+            "users": [
+              {
+                "email": "test@test.com",
+                "last_name": "test",
+                "first_name": "test",
+                "middle_name": "test",
+                "role": "IN_CHARGE",
+                "images": [
+                  null
+                ],
+                "phone_numbers": [
+                  {
+                    "active": true,
+                    "number": "+38 (098) 765-44-33"
+                  }
+                ]
+              }
+            ],
+            "lines": {
+              "1": {
+                "adapter_type": "SYS",
+                "group_number": 1,
+                "adapter_number": 0
+              },
+              "2": {
+                "adapter_type": "SYS",
+                "group_number": 1,
+                "adapter_number": 0
+              },
+              "3": {
+                "adapter_type": "SYS",
+                "group_number": 1,
+                "adapter_number": 0
+              },
+              "4": {
+                "adapter_type": "SYS",
+                "group_number": 1,
+                "adapter_number": 0
+              },
+              "5": {
+                "adapter_type": "AD3L",
+                "group_number": 1,
+                "adapter_number": 1
+              },
+              "6": {
+                "adapter_type": "AD3L",
+                "group_number": 1,
+                "adapter_number": 1
+              },
+              "7": {
+                "adapter_type": "AD3L",
+                "group_number": 1,
+                "adapter_number": 1
+              }
+            }
+          },
+          {
+            "name": "Нове приміщення",
+            "description": "Немає опису",
+            "images": [
+              null
+            ],
+            "rtsp": "",
+            "users": null,
+            "lines": {}
+          }
+        ]
+      },
+      "device": {
+        "number": 1,
+        "name": "test",
+        "type": "TYPE_DEVICE_Dunay_4L",
+        "timeout": 240,
+        "sim1": "+380 (97) 820-68-09",
+        "sim2": "+380 (97) 820-68-08",
+        "technician": {
+          "email": "",
+          "last_name": "435",
+          "first_name": "435",
+          "middle_name": "435",
+          "role": "TECHNICIAN",
+          "images": [
+            null
+          ],
+          "phone_numbers": [
+            {
+              "active": true,
+              "number": ""
+            }
+          ]
+        },
+        "units": null,
+        "requisites": null,
+        "change_date": 1604959200000,
+        "reglament_date": 1605477600000,
+        "moreAlarmTime": [
+          {
+            "day": 1,
+            "start_time": "10:00",
+            "stop_time": "15:00",
+            "cause": "GROUP_OFF"
+          }
+        ],
+        "ignoringAlarmTime": [],
+        "lines": {
+          "1": {
+            "line_id": 3,
+            "adapter_type": "SYS",
+            "adapter_number": 0,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "1",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": 1
+          },
+          "2": {
+            "line_id": 4,
+            "adapter_type": "SYS",
+            "adapter_number": 0,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "2",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": 1
+          },
+          "3": {
+            "line_id": 2,
+            "adapter_type": "SYS",
+            "adapter_number": 0,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "3",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": 1
+          },
+          "4": {
+            "line_id": 1,
+            "adapter_type": "SYS",
+            "adapter_number": 0,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "4",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": 1
+          },
+          "5": {
+            "line_id": 5,
+            "adapter_type": "AD3L",
+            "adapter_number": 1,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "Нет описания",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": 1
+          },
+          "6": {
+            "line_id": 6,
+            "adapter_type": "AD3L",
+            "adapter_number": 1,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "Нет описания",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": 1
+          },
+          "7": {
+            "line_id": 7,
+            "adapter_type": "AD3L",
+            "adapter_number": 1,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "Немає опису",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": 1
+          },
+          "8": {
+            "line_id": 135,
+            "adapter_type": "AD6L",
+            "adapter_number": 2,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "Немає опису",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": null
+          },
+          "9": {
+            "line_id": 129,
+            "adapter_type": "AD6L",
+            "adapter_number": 2,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "Немає опису",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": null
+          },
+          "10": {
+            "line_id": 130,
+            "adapter_type": "AD6L",
+            "adapter_number": 2,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "Немає опису",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": null
+          },
+          "11": {
+            "line_id": 131,
+            "adapter_type": "AD6L",
+            "adapter_number": 2,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "Немає опису",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": null
+          },
+          "12": {
+            "line_id": 132,
+            "adapter_type": "AD6L",
+            "adapter_number": 2,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "Немає опису",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": null
+          },
+          "13": {
+            "line_id": 133,
+            "adapter_type": "AD6L",
+            "adapter_number": 2,
+            "line_type": "NORMAL",
+            "group_number": 1,
+            "description": "Немає опису",
+            "is_broken": 0,
+            "isBlocked": false,
+            "room_id": null
+          }
+        }
+      }
+    }
+  ]
+}

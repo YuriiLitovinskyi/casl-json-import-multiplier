@@ -1,0 +1,23 @@
+{
+  "name": "casl-json-import-multiplier",
+  "version": "1.0.0",
+  "description": "App to multiply sample json file for import data into CASL Cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js", "pkg"
+  ],
+  "author": "Yurii Litovinskyi",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.1"
+  },
+  "bin": "./index.js",
+  "pkg": {
+    "scripts": "*js",
+    "assets": ["json_input/*", "json_output/*"],
+    "targets": []
+  }
+}

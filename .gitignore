@@ -1,0 +1,8 @@
+node_modules/
+service.out.log
+index-win.exe
+index-linux
+index-macos
+casl-json-import-multiplier-win.exe
+casl-json-import-multiplier-linux
+casl-json-import-multiplier-macos
